@@ -1,8 +1,6 @@
 ﻿using Carrot;
 using System;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Game_Top : MonoBehaviour
 {
@@ -29,7 +27,7 @@ public class Game_Top : MonoBehaviour
     {
         if (length == 0)
         {
-            this.carrot.show_msg("Achievement history", "You do not have play rankings");
+            this.carrot.Show_msg("Achievement history", "You do not have play rankings",Msg_Icon.Alert);
         }
         else
         {
