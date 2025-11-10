@@ -1,0 +1,475 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 20367 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-trant" at "2025-11-10T16:21:50.6702969Z"
+Date: 2025-11-10T16:21:50Z
+
+COMMAND LINE ARGUMENTS:
+F:\Unity3d\6000.0.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Worm-Master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53428
+-licensingIpc
+LicenseClient-trant
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: G:/Worm-Master
+G:/Worm-Master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23516]  Target information:
+
+Player connection [23516]  * "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 4207909099 [EditorId] 4207909099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UGNUB6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23516] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19780, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              a08ec8601aca4236bc417a4c5b785537
+  Correlation Id:          4fbcab0345286ea2c8c31469e0ad2dbd
+  External correlation Id: 6460153495222288385
+  Machine Id:              jKKqsICLBk8eEz4EUEHEmMgmez8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-trant" (connect: 0.00s, validation: 0.00s, handshake: 0.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-trant-notifications" at "2025-11-10T16:21:51.0005028Z"
+[Licensing::Module] Licensing Background thread has ended after 0.33s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4181188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 162.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path F:/Unity3d/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Worm-Master/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x162)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.4358
+Initialize mono
+Mono path[0] = 'F:/Unity3d/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity3d/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity3d/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: F:/Unity3d/6000.0.62f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.107074 seconds.
+- Loaded All Assemblies, in 32.971 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 576 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.425 seconds
+Domain Reload Profiling: 35392ms
+	BeginReloadAssembly (24756ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (1564ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (279ms)
+	LoadAllAssembliesAndSetupDomain (6312ms)
+		LoadAssemblies (24888ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6168ms)
+			TypeCache.Refresh (6164ms)
+				TypeCache.ScanAssembly (5436ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1636ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in 19.851 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 23.91 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 21.62 ms, found 2 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.844 seconds
+Domain Reload Profiling: 21693ms
+	BeginReloadAssembly (545ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (19072ms)
+		LoadAssemblies (17330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1984ms)
+			TypeCache.Refresh (1879ms)
+				TypeCache.ScanAssembly (1825ms)
+			BuildScriptInfoCaches (84ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (970ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 28.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3138 unused Assets / (0.7 MB). Loaded Objects now: 3564.
+Memory consumption went from 78.7 MB to 78.0 MB.
+Total: 17.956100 ms (FindLiveObjects: 0.585200 ms CreateObjectMapping: 0.443700 ms MarkObjects: 14.613500 ms  DeleteObjects: 2.310900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 273321.478496 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/logo_carrot_login.png
+  artifactKey: Guid(b4e99459a88f53f409101520a875000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/logo_carrot_login.png using Guid(b4e99459a88f53f409101520a875000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a2ce0249f8fba5b3e203dfdc47fe2f') in 0.315615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Worm-Master/Sprites/leaf2.png
+  artifactKey: Guid(6e2918059ecf387468ee3e474eadf343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/leaf2.png using Guid(6e2918059ecf387468ee3e474eadf343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8e858c2708a80fbe33b0efe4fc671f') in 0.057659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Worm-Master/Sprites/list_music_game.png
+  artifactKey: Guid(1acf1e775ef9a3d4ea5866c8bdc8ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/list_music_game.png using Guid(1acf1e775ef9a3d4ea5866c8bdc8ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5026fe84ecc92ce7c4a5b33837d9723') in 0.0447783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Worm-Master/Sprites
+  artifactKey: Guid(3440fa157646f054c8a895dba31964cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites using Guid(3440fa157646f054c8a895dba31964cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e36d1b424b55918626993ec25271f4') in 0.0014764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Worm-Master/Sprites/milk_cow.png
+  artifactKey: Guid(6a2b6e097f8c25048b92469c6003bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/milk_cow.png using Guid(6a2b6e097f8c25048b92469c6003bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '976377d8a652ef110046aeefb6b9c423') in 0.2490958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Worm-Master/Sprites/logo.png
+  artifactKey: Guid(2106d13f4fcd415488941880c6ea5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/logo.png using Guid(2106d13f4fcd415488941880c6ea5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee3c59aaab8f5ec512768e3737d5b664') in 0.0360381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Worm-Master/Prefabs
+  artifactKey: Guid(bf3889a5b82652542a5d8bdce4b36d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Prefabs using Guid(bf3889a5b82652542a5d8bdce4b36d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c47fad2ba1c93f8dbab5fdad5e2425e') in 0.0012044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Worm-Master/Sprites/icon_btn.png
+  artifactKey: Guid(7c55072982eb27a4c93d959a39a4cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/icon_btn.png using Guid(7c55072982eb27a4c93d959a39a4cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21166b6a09809678fee09eeeaeabad2b') in 0.2842457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/logo_carrot.png
+  artifactKey: Guid(85c535ca6ff6c2644ab324f8738ca573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/logo_carrot.png using Guid(85c535ca6ff6c2644ab324f8738ca573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '675e899bbc687bc8253fdd677d29e2b4') in 0.1014108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Worm-Master/Sprites/leaf.png
+  artifactKey: Guid(e157e7baa36f4f94cade83b082f88231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/leaf.png using Guid(e157e7baa36f4f94cade83b082f88231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dadc4f35818ca0dee741b73404e06670') in 0.0474704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.135326 seconds.
+  path: Assets/Worm-Master/Sprites/move.png
+  artifactKey: Guid(eb5354683e676524cb1616a4fa2ecbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/move.png using Guid(eb5354683e676524cb1616a4fa2ecbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec566c4c99cceef92e1774d8aa3d71f') in 0.0286936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016638 seconds.
+  path: Assets/Worm-Master/Sprites/off.png
+  artifactKey: Guid(f2ba5b653e63f16418d41d857b8c9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/off.png using Guid(f2ba5b653e63f16418d41d857b8c9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152b0b6f26099474480d3aeee75569f2') in 0.0170052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Worm-Master/Sprites/on.png
+  artifactKey: Guid(9834b77f53cea3d47a7e322c7ee5e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/on.png using Guid(9834b77f53cea3d47a7e322c7ee5e546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '497805da6a18585d0d3db7f13a4c3435') in 0.0203754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Worm-Master/Sprites/one_player.png
+  artifactKey: Guid(4f75292f3930d5344bc5d7cfe0b6fb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/one_player.png using Guid(4f75292f3930d5344bc5d7cfe0b6fb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6189c8692655d5bd8e34da539d2e4e34') in 0.0467494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Worm-Master/Sprites/Items/orange.png
+  artifactKey: Guid(41a4d6ab87b88d440a2ea553a8680edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/Items/orange.png using Guid(41a4d6ab87b88d440a2ea553a8680edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5ffd98178bb80a5b81faa21d77faceb') in 0.0280829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/rating.png
+  artifactKey: Guid(5cc0fd50727cafa499771e568cabf7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/rating.png using Guid(5cc0fd50727cafa499771e568cabf7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dd9fed490f3e71ea04f8be0ebeecf31') in 0.0299551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/share_sms.png
+  artifactKey: Guid(6c1e325faa0f8e2448b390feff186207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/share_sms.png using Guid(6c1e325faa0f8e2448b390feff186207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d29a43fa8779e52fb89a365dc63d33') in 0.0233699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Worm-Master/Sprites/ranking_cup.png
+  artifactKey: Guid(e153267e98fde3743842ad43844aa2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/ranking_cup.png using Guid(e153267e98fde3743842ad43844aa2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf91f90417fc3ead2e742975d8c2d6b5') in 0.0208231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/profile_user.png
+  artifactKey: Guid(41608187babc5ee4391b9b31bbecbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/profile_user.png using Guid(41608187babc5ee4391b9b31bbecbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f4d63c989d158b6f82558863cb4002') in 0.0352247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Worm-Master/Sprites/Items/pineapple.png
+  artifactKey: Guid(1197d3ee763c8274ba16c9501b5707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/Items/pineapple.png using Guid(1197d3ee763c8274ba16c9501b5707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff163e5a18257ba3de63d4670fee25b') in 0.0345669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Worm-Master/Sprites/Items/score_boost.png
+  artifactKey: Guid(e66ef629f11ade041bb996e5af856afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/Items/score_boost.png using Guid(e66ef629f11ade041bb996e5af856afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbdd1d1436952e91fb882307fc40a70d') in 0.0398676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608133 seconds.
+  path: Assets/Worm-Master/Sprites/icon.png
+  artifactKey: Guid(f5af405423172374590205503374ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/icon.png using Guid(f5af405423172374590205503374ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b312f4c116ade4d864d2ccd19c571b3') in 0.0437419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Worm-Master/Sprites/icon_androidtv.png
+  artifactKey: Guid(f97186c933e386b46a5b4515b93474cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/icon_androidtv.png using Guid(f97186c933e386b46a5b4515b93474cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7e5162e700181426c017924773061a0') in 0.0444099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.285574 seconds.
+  path: Assets/Carrot-Framework-App/carrot_img/gamepad.png
+  artifactKey: Guid(8f29873cdd38a194790278f8021b620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Carrot-Framework-App/carrot_img/gamepad.png using Guid(8f29873cdd38a194790278f8021b620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c60de8f9fc8e22a2d6afad71d5f648') in 0.0333175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Worm-Master/Sprites/history.png
+  artifactKey: Guid(68cd03892f752374c8bbed515845df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/history.png using Guid(68cd03892f752374c8bbed515845df94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80eec3a9e18de11ed07b4716003d3dc3') in 0.0328298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Worm-Master/Sprites/grass2.png
+  artifactKey: Guid(2930bc44e96041d499abc4b7e998ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/grass2.png using Guid(2930bc44e96041d499abc4b7e998ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38ce9fe0df02b9b19b9ae9982b2b2eb9') in 0.0399139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Worm-Master/Sprites/Snake/Head2.png
+  artifactKey: Guid(740894b7bac632f4cbd2c3328623a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/Snake/Head2.png using Guid(740894b7bac632f4cbd2c3328623a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2fa1cec60564c53d759ec6fdbd4be1') in 0.0395053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Worm-Master/Sprites/Snake/Head.png
+  artifactKey: Guid(809bbea0daf472744a848042b546a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/Snake/Head.png using Guid(809bbea0daf472744a848042b546a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60e8fabf6886be27412efb273afd03a0') in 0.038601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Worm-Master/Sprites/games.png
+  artifactKey: Guid(c09202f99a30e874891275697e8b77c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/games.png using Guid(c09202f99a30e874891275697e8b77c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddef28d0ac53ef6d95464c6249fafea1') in 0.0333902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Worm-Master/Sprites/grass.png
+  artifactKey: Guid(b81ff2d5676be5848b5f92944cf03026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Worm-Master/Sprites/grass.png using Guid(b81ff2d5676be5848b5f92944cf03026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f109f18a4163066053c5bfe8bad4010') in 0.0405627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+

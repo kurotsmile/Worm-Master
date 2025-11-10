@@ -469,9 +469,9 @@ public class GameManager : MonoBehaviour
 		this.carrot.show_login();
     }
 
-	public void show_user_buy_id(string s_id_user, string s_lang)
+	public void show_user_buy_id(string s_id_user)
 	{
-		this.carrot.user.show_user_by_id(s_id_user, s_lang);
+		this.carrot.user.show_user_by_id(s_id_user);
 	}
 
 	public void btn_remove_Ads()
