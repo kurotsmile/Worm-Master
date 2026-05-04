@@ -72,6 +72,8 @@ public class GameManager : MonoBehaviour
 	{
 		this.carrot.Load_Carrot(this.check_exit_app);
 		this.carrot.act_after_close_all_box = this.act_after_close_all_box;
+		this.ads.On_Load();
+        this.carrot.act_buy_ads_success=this.ads.RemoveAds;
 
 		this.carrot.change_sound_click(this.sound[0].clip);
 

@@ -7,3 +7,5 @@
 /Temp
 /Assets/MobileDependencyResolver
 /Logs
+/.utmp
+/Logs
